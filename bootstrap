@@ -1,0 +1,9 @@
+#!/bin/sh
+
+[ -d build-aux ] || mkdir -v build-aux
+[ -d m4 ] || mkdir -v m4
+
+autoreconf -vi
+
+exit $?
+
