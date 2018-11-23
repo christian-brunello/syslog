@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([syslogd], [0.1.0], [BUGREPORT@ADDRESS])
+AC_INIT([syslog], [0.1.0-alpha], [BUGREPORT@ADDRESS])
 AC_CONFIG_SRCDIR([src/syslogd.c])
 AC_CONFIG_HEADERS([src/config.h])
 AC_CONFIG_AUX_DIR([build-aux])
